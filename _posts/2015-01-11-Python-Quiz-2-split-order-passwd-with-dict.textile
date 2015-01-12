@@ -7,13 +7,13 @@ categories: python quiz
 
 h3. The question:
 
-From the file /etc/passwd you must print out a dict sorted by key. The key of dict is field #1 and the value is field #3 of the passwd file.
+From the file /etc/passwd you must print out a dict sorted by key. The key of dict is field #1 and the value is field #3 of the passwd file. The line beginning with # are threated as comments.
 
 h3. My solution
 
 {% highlight python %}
 d = dict([(line.split(':')[0], line.split(':')[2])
-          for line in open('/etc/passwd').readlines()])
+          for line in open('/etc/passwd').readlines() if not line.startswith('#')])
 for k, v in sorted(d.items()):
     print k, v
 {% endhighlight %}

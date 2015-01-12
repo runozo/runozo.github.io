@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "Python quiz n.2 - Answer"
+date:   2015-01-12 20:23:20
+categories: python quiz
+---
+
+This is related to "this post":{% post_url 2015-01-11-Python-Quiz-2-split-order-passwd-with-dict %}
+
+h3. The Answer
+
+Well, he gave two answers.
+
+One plain version:
+
+{% highlight python %}
+users = {}
+with open('/etc/passwd') as f:
+    for line in f:
+        if not line.startswith("#"):
+            user_info = line.split(":")
+            users[user_info[0]] = user_info[2]
+
+for username in sorted(users):
+    print("{}:{}".format(username, users[username]))
+{% endhighlight %}
+
+and one with dictionary comprehension:
+
+{% highlight python %}
+python, options: "linenos": true
+users =  { line.split(':')[0] : line.split(':')[2]
+           for line in open('/etc/passwd')
+           if not line.startswith('#') }
+{% endhighlight %}
+
+This last lacks of the output part, but is very close to "mine solution":{% post_url 2015-01-11-Python-Quiz-2-split-order-passwd-with-dict %}.
+
+So close!

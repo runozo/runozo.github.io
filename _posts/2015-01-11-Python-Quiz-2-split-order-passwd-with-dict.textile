@@ -18,4 +18,4 @@ for k, v in sorted(d.items()):
     print k, v
 {% endhighlight %}
 
-This time I tried to keep it as shorter as possible. Let's see tomorrow which will be the proposed answer.
+This time I tried to keep it as shorter as possible. Let's see "tomorrow":{% post_url 2015-01-12-Python-Quiz-2-Answer %} which will be the proposed answer.

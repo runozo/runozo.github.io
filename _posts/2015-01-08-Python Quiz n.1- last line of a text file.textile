@@ -34,7 +34,7 @@ print(open(filename).readlines()[-1])
 
 h3. After comment
 
-Ok, first quiz and first interpretation error here. I wonder my self My solution it's a lot and unnecessarly complicated for the asked question. I'll try twhich part of "Ask" was not clear to me :-). Better to focus the next quiz solution, to something simpler and concise.
+Ok, first quiz and first interpretation error here. I wonder myself which part of "Ask" was not clear to me :-). My solution it's a lot and unnecessarly complicated for the asked question. Better to focus the next quiz solution, to something simpler and concise.
 
 See ya!
 

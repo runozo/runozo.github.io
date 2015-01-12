@@ -31,8 +31,10 @@ and one with dictionary comprehension:
 users =  { line.split(':')[0] : line.split(':')[2]
            for line in open('/etc/passwd')
            if not line.startswith('#') }
+for username in sorted(users):
+    print("{}:{}".format(username, users[username]))
 {% endhighlight %}
 
-This last, lacks of the output part, but is very close to "mine solution":{% post_url 2015-01-11-Python-Quiz-2-split-order-passwd-with-dict %}.
+This last is very close to "mine solution":{% post_url 2015-01-11-Python-Quiz-2-split-order-passwd-with-dict %}.
 
 So close!

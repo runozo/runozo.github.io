@@ -12,8 +12,10 @@ layout: default
     {{ content }}
   </article>
 
+  {% include social_share.html %}
+
   <!-- Pagination links -->
-    <div class="pagination">
+    <div class="pagination" style="margin-top:0.5em">
       {% if page.previous %}
         <a href="{{ page.previous.url }}" class="previous">Prev. post</a>
       {% else %}

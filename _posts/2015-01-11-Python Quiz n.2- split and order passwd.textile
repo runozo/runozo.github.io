@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Python quiz n.2 - Split and order /etc/passwd file"
+date:   2015-01-11 19:23:20
+categories: python quiz
+---
+
+h3. The question:
+
+From the file /etc/passwd you must print out a dict ordered by key. The key of dict is field #1 and the value is field #3 of the passwd file.
+
+h3. My solution
+
+{% highlight python %}
+d = dict([(line.split(':')[0], line.split(':')[3])
+          for line in open('/etc/passwd').readlines()])
+for k, v in sorted(d.items()):
+    print k, v
+{% endhighlight %}
+
+Let's see tomorrow which is the proposed answer.

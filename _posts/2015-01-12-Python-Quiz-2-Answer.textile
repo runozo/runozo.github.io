@@ -9,7 +9,7 @@ This is related to "this post":{% post_url 2015-01-11-Python-Quiz-2-split-order-
 
 h3. The Answer
 
-Well, he gave two answers.
+Well, "he":{% post_url 2015-01-08-Python-Quiz-1-last-line-of-text-file %} gave two answers.
 
 One plain version:
 

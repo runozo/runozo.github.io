@@ -7,7 +7,7 @@ categories: python quiz
 
 h3. The Question
 
-From the file /etc/passwd you must print out a dict sorted by key. The key of dict is field #1 and the value is field #3 of the passwd file. The line beginning with # are threated as comments.
+From the file /etc/passwd you must print out a dict sorted by key. The key of dict is field #1 and the value is field #3 of the passwd file. The line beginning with # must be threated as comments.
 
 h3. My solution
 

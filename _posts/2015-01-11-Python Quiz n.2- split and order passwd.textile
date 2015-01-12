@@ -7,7 +7,7 @@ categories: python quiz
 
 h3. The question:
 
-From the file /etc/passwd you must print out a dict ordered by key. The key of dict is field #1 and the value is field #3 of the passwd file.
+From the file /etc/passwd you must print out a dict sorted by key. The key of dict is field #1 and the value is field #3 of the passwd file.
 
 h3. My solution
 

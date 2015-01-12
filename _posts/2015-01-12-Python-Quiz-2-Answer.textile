@@ -33,6 +33,6 @@ users =  { line.split(':')[0] : line.split(':')[2]
            if not line.startswith('#') }
 {% endhighlight %}
 
-This last lacks of the output part, but is very close to "mine solution":{% post_url 2015-01-11-Python-Quiz-2-split-order-passwd-with-dict %}.
+This last, lacks of the output part, but is very close to "mine solution":{% post_url 2015-01-11-Python-Quiz-2-split-order-passwd-with-dict %}.
 
 So close!

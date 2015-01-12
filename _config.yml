@@ -10,3 +10,4 @@ github_username:  runozo
 
 # Build settings
 markdown: kramdown
+paginate: 5

@@ -5,16 +5,16 @@ layout: default
 <div class="home">
 
   <ul class="post-list">
-    {% for page in site.posts %}
+    {% for post in paginator.posts %}
       <div class="post">
 
       <header class="post-header">
-        <h1 class="post-title">{{ page.title }}<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">#</a></h1>
-        <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+        <h1 class="post-title">{{ post.title }}<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">#</a></h1>
+        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
       </header>
 
       <article class="post-content">
-        {{ page.content }}
+        {{ post.content }}
       </article>
 
     </div>

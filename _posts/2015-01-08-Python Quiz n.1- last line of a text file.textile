@@ -2,9 +2,9 @@
 layout: post
 title:  "Python quiz n.1 - Last line of a text file"
 date:   2015-01-08 16:23:20
-categories: jekyll update
+categories: python quiz
 ---
-I subscribed myself to a newsletter that propose each day a new Python quiz, then answer it the day after. I'll accept the challenge (for now, at least) and answer here before I've the solution. Let's start with the first post with the first quiz.
+I subscribed myself to a newsletter that propose each day a new [Python]http://www.python.org quiz, then answer it the day after. I'll accept the challenge (for now, at least) and answer here before I've the solution. Let's start with the first post with the first quiz.
 
 h3. The question:
 
@@ -13,7 +13,6 @@ h3. The question:
 h3. My solution
 
 {% highlight python %}
-# My solution
 import sys
 try:
     with open(sys.argv[1], 'r') as f:
@@ -26,15 +25,16 @@ except:
     print("Use like this:\n%s <path_to_file>\n" % sys.argv[0])
 {% endhighlight %}
 
+h3. Official solution
+
 {% highlight python %}
-# Official solution
 filename = raw_input("Enter a filename: ")
 print(open(filename).readlines()[-1])
 {% endhighlight %}
 
 h3. After comment
 
-Ok, first quiz and first interpretation error here. My solution it's a lot and unnecessarly complicated for the asked question. I'll try to better focus the next quiz solutions, to something simpler and concise.
+Ok, first quiz and first interpretation error here. I wonder my self My solution it's a lot and unnecessarly complicated for the asked question. I'll try twhich part of "Ask" was not clear to me :-). Better to focus the next quiz solution, to something simpler and concise.
 
 See ya!
 

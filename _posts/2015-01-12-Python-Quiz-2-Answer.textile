@@ -28,7 +28,6 @@ for username in sorted(users):
 and one with dictionary comprehension:
 
 {% highlight python %}
-python, options: "linenos": true
 users =  { line.split(':')[0] : line.split(':')[2]
            for line in open('/etc/passwd')
            if not line.startswith('#') }

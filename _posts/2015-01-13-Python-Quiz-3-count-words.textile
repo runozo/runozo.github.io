@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Python quiz n.3 - Count word & others in a file"
+title:  "Python quiz n.3 - Count word & others of a file"
 date:   2015-01-13 20:23:20
 categories: python quiz
 ---

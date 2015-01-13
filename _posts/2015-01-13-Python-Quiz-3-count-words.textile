@@ -27,7 +27,8 @@ c, lc = Counter(), 0
 for word in lines.split():
     c[word] += 1
     lc += 1
-print(len(lines), lc, len(lines.split('\n')), c)
+print('nchar=%s, word_count=%s, line_count=%s\n\nunique_words_count:\n\n%s' %
+      (len(lines), lc, len(lines.split('\n')), "\n".join(['%s=%s' % (k, v) for k, v in c.items()])))
 {% endhighlight %}
 
 Made this quickly after dinner, hope it's good.

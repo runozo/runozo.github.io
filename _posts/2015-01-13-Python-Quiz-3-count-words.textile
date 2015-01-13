@@ -5,8 +5,6 @@ date:   2015-01-13 20:23:20
 categories: python quiz
 ---
 
-This is related to "this post":{% post_url 2015-01-11-Python-Quiz-2-split-order-passwd-with-dict %}
-
 h3. The Question
 
 "The challenge for this exercise is to write a version of wc in Python. However, your version of wc will return four different types of information about the files:

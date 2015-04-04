@@ -1,8 +1,8 @@
 .page-links { float:right }
-.main-content { padding-top: 70px;}
+.main-content { margin-top: 70px;}
 .post {
     border-radius: 2px;
-    background-color: #223333;
+    background-color: #233;
     padding: 10px
     }
 h1,h3, .post-meta {color: #333}

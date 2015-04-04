@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Job quiz - Create a css logo with a custom animation"
+title:  "CSS quiz - Create a css logo with a custom animation"
 date:   2015-04-02 20:23:20
 categories: python quiz
 ---
 
 h3. The Question
 
-The dots should xxspiral in from random directions constrained within about a 100px area of the end result and after spiraling in randomly, position themselves like the attached image. The animation should be fairly quick, about 0.5sec. This should be done completely with css3 animations.
+"The dots should xxspiral in from random directions constrained within about a 100px area of the end result and after spiraling in randomly, position themselves like the attached image. The animation should be fairly quick, about 0.5sec. This should be done completely with css3 animations."
 
-![Example logo]({{ site.url }}/assets/elance_job_css.png)
+!{{ site.url }}/assets/elance_job_css.png!

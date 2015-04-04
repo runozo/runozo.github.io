@@ -1,17 +1,17 @@
 <footer class="site-footer">
 
   <div class="container-fluid">
-
-    <div class="footer-col-wrapper">
+          {{ site.description }}&nbsp;
           {% if site.email %}
-          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+          <a href="mailto:{{ site.email }}" class="glyphicon glyphicon-envelope"></a>
           {% endif %}
+          <!--
           {% if site.github_username %}
-            <a href="https://github.com/{{ site.github_username }}">
-              <span class="username">{{ site.github_username }}</span>
+            <a href="https://github.com/{{ site.github_username }}" class="glyphicon glyphicon-github">
+              {{ site.github_username }}
             </a>
           {% endif %}
-
+          -->
           {% if site.twitter_username %}
           <li>
             <a href="https://twitter.com/{{ site.twitter_username }}">
@@ -29,10 +29,7 @@
         </ul>
       </div>
 
-      <div class="footer-col  footer-col-3">
-        <p class="text">{{ site.description }}</p>
-      </div>
-    </div>
+
 
   </div>
 

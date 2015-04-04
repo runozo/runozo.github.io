@@ -7,6 +7,8 @@ categories: python quiz
 
 h3. The Question
 
+This time, "the man":{% post_url 2015-01-08-Python-Quiz-1-last-line-of-text-file %} asked this:
+
 "The challenge for this exercise is to write a version of wc in Python. However, your version of wc will return four different types of information about the files:
 
 Number of characters (including whitespace)
@@ -21,12 +23,15 @@ h3. My implementation
 
 {% highlight python %}
 from collections import Counter
+
 filename = raw_input('enter a filename :')
 lines = open(filename, 'r').read()
+
 c, lc = Counter(), 0
 for word in lines.split():
     c[word] += 1
     lc += 1
+
 print('nchar=%s, word_count=%s, line_count=%s\n\nunique_words_count:\n\n%s' %
       (len(lines), lc, len(lines.split('\n')), "\n".join(['%s=%s' % (k, v) for k, v in c.items()])))
 {% endhighlight %}

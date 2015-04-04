@@ -1,0 +1,11 @@
+.page-links { float:right }
+.main-content { padding-top: 70px;}
+.post {
+    border-radius: 2px;
+    background-color: #223333;
+    padding: 10px
+    }
+h1,h3, .post-meta {color: #333}
+article {background-color: #47877f;padding:10px;border-radius:3px;}
+article p {color: #ddd}
+

@@ -4,7 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is my poor man blog, managed with [Jekyll](http://jekyllrb.com/).
+Cesare Ghirelli - Developer and Linux admin.
 
-There are some random memories from my life as a programmer.
+I live in Bologna, Italy.
 
+My buzzwords are:
+
+[Python](http://www.python.org "Python language web site"), [JavaScript](http://vanilla-js.com/), [Scrapy](http://scrapy.org/), [Django](http://www.djangoproject.com), [Flask](http://flask.pocoo.org/), [MongoDB](https://www.mongodb.org/), [HAproxy](http://www.haproxy.org/), [Nginx](https://www.nginx.com/), [Debian](http://www.debian.org).

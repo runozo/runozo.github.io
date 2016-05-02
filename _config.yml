@@ -1,21 +1,19 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
-title: Runozo
-email: runozo@gmail.com
+title: Runozo's github pages
+email: cesare.ghirelli@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  My blog pages, mainly related to exercise me in writing in English ;-)
-baseurl: "" # the subpath of your site, e.g. /blog/
+  Runozo's github pages - A blog about python, web and data.
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://runozo.github.io" # the base hostname & protocol for your site
-# twitter_username: jekyllrb
+twitter_username: jekyllrb
 github_username:  runozo
 
 # Build settings
 markdown: kramdown
-paginate: 5
-
-# Social
-og_image: favicon.ico # Default image for Open Graph tag
-og_image_type: image/png
-og_image_width: 16 # 300
-og_image_height: 16 # 300
-fb_profile_id: runozo.github.io
-fb_admins: 542154016

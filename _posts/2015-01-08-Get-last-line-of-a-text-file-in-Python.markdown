@@ -10,7 +10,7 @@ Let's start with the first post with the first quiz.
 
 The first question was:
 
-"Ask the user for the name of a text file. Display the final line of that file."
+*"Ask the user for the name of a text file. Display the final line of that file."*
 
 Seems quietly easy, here is my solution. I don't like the fact I needed to "import sys" but didn't find nothing better for asking a filename to user.
 

@@ -4,8 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Cesare Ghirelli - Developer and Linux admin.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+I live in Bologna, Italy.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+My buzzwords are:
+
+[Python](http://www.python.org "Python language web site"), [JavaScript](http://vanilla-js.com/), [Scrapy](http://scrapy.org/), [Django](http://www.djangoproject.com), [Flask](http://flask.pocoo.org/), [MongoDB](https://www.mongodb.org/), [HAproxy](http://www.haproxy.org/), [Nginx](https://www.nginx.com/), [Debian](http://www.debian.org).

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Get last line of a text file in Python"
+title:  "Get last line of a text file with Python"
 date:   2015-01-08 16:23:20
 categories: python quiz
 ---

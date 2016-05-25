@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Split and order /etc/passwd file with a dict in Python"
+title:  "Split and order /etc/passwd file with a dict with Python"
 date:   2015-02-10 16:12:20
 categories: python quiz
 ---
